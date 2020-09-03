@@ -76,7 +76,7 @@ WHERE supplier_id = '11'
   </details>
 
 ```SQL
-elect customer_id, order_date, order_id
+SELECT customer_id, order_date, order_id
 FROM orders
 ORDER BY order_date DESC
 ```
